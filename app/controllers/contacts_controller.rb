@@ -1,2 +1,2 @@
-class ContactsController < ApplicationController
+class ContactsController < InheritedResources::Base
 end
