@@ -1,5 +1,14 @@
 ActiveAdmin::Dashboards.build do
 
+ section "Recent Registrations" do
+   ul do
+     Registration.order('id desc').limit(5).collect do |registration|
+       li link_to(registration.contact.name, admin_registration_path(registration))
+     end
+   end
+ end
+
+
   # Define your dashboard sections here. Each block will be
   # rendered on the dashboard in the context of the view. So just
   # return the content which you would like to display.
