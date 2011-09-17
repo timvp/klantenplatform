@@ -43,6 +43,7 @@ GEM
     arel (2.2.1)
     bcrypt-ruby (3.0.0)
     builder (3.0.0)
+    cocaine (0.2.0)
     coffee-rails (3.1.0)
       coffee-script (>= 2.2.0)
       railties (~> 3.1.0.rc1)
@@ -50,6 +51,8 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.1.2)
+    date_validator (0.6.2)
+      activemodel (>= 3.0.0, < 3.2.0)
     devise (1.4.5)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.0.3)
@@ -88,6 +91,11 @@ GEM
     orm_adapter (0.0.5)
     paper_trail (2.3.2)
       rails (~> 3)
+    paperclip (2.4.0)
+      activerecord (>= 2.3.0)
+      activesupport (>= 2.3.2)
+      cocaine (>= 0.0.2)
+      mime-types
     polyamorous (0.5.0)
       activerecord (~> 3.0)
     polyglot (0.3.2)
@@ -156,10 +164,12 @@ PLATFORMS
 DEPENDENCIES
   activeadmin (= 0.3.1)
   coffee-rails (~> 3.1.0)
+  date_validator (= 0.6.2)
   inherited_resources (= 1.2.2)
   jquery-rails
   meta_search
   paper_trail (= 2.3.2)
+  paperclip (= 2.4.0)
   rails (= 3.1.0)
   rspec (= 2.6.0)
   sass-rails (~> 3.1.0)

@@ -7,6 +7,8 @@ gem 'activeadmin', '0.3.1'
 gem 'meta_search'
 gem 'inherited_resources', '1.2.2'
 gem 'paper_trail', '2.3.2'
+gem 'date_validator', '0.6.2'
+gem 'paperclip', '2.4.0'
 
 
 # Gems used only for assets and not required

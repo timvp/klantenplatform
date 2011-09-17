@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  contact_id: 
+  training_id: 
+  type: 
+
+two:
+  contact_id: 
+  training_id: 
+  type: 
